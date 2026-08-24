@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #fce4ec;
+}
+
+/* Calendar 방문 날짜 점 표시 */
+.marked-dot::after {
+  content: '•';
+  display: block;
+  font-size: 8px;
+  color: #e91e8c;
+  margin-top: -4px;
+}
